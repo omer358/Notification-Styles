@@ -66,4 +66,11 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+
+    implementation(libs.androidx.runtime.livedata)
+
+    // Notification dependencies
+    implementation(libs.androidx.core.splashscreen)
+    implementation(libs.androidx.media)
 }
